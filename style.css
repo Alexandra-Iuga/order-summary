@@ -113,6 +113,11 @@ h5 {
     font-weight: 500;
 }
 
+.price:hover {
+    color: var(--destaurated-blue) !important;
+    cursor: text;
+}
+
 .change-plan {
     position: relative;
     left: 70px;
@@ -135,11 +140,11 @@ h5 {
 }
 
 .btn-primary:hover {
-    background-color: var(--destaurated-blue);
+    background-color: var(--destaurated-blue) !important;
     border-color: var(--destaurated-blue), 
                   var(--destaurated-blue), 
                   var(--destaurated-blue), 
-                  var(--destaurated-blue);
+                  var(--destaurated-blue) !important;
 }
 
 .btn-light {
@@ -150,5 +155,5 @@ h5 {
 }
 
 .btn-light:hover {
-    color: var(--dark-blue);
+    color: var(--dark-blue) !important;
 }
